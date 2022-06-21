@@ -24,7 +24,7 @@ const galleryElements = galleryItems.map(
   }
 );
 
-gallery.insertAdjacentHTML('afterbegin', [...galleryElements].join(''));
+gallery.insertAdjacentHTML('afterbegin', galleryElements.join(''));
 
 function openModal(event) {
   event.preventDefault();
